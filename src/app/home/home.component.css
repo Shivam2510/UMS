@@ -1,0 +1,185 @@
+body{
+    background-image: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+}
+
+
+
+
+
+/*--------------------------------------------------------------LEFT SIDE DETAIL OF STUDENT--------------------------------------------------------*/
+ *{
+  box-sizing: border-box;
+}
+
+
+.Student_Detail {
+  width: 30%;
+  float: left;
+  padding: 15px;
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+  height: 700px;
+}
+
+.main {
+  width: 70%;
+  float: left;
+  padding: 15px;
+  border: 1px solid black;
+  overflow-y: auto;
+  height: 650px;
+}
+.Student_Image{
+	width: 110px;
+	height: 100px;
+	padding-left: 20px;
+}
+
+
+/*------------------------------------------------------------------TIME TABLE OF TODAY--------------------------------------------------------------------*/
+.main_child_1{
+	border: 1px solid black;
+	border-radius: 10px;
+	height: 250px;
+	overflow-y: scroll;
+    z-index: 0; 
+}
+.main_child_1_sticky{
+	 position: -webkit-sticky;
+  	 position: sticky;
+  	 top: 0;
+     background-color: #4CAF50;
+    border-bottom: 1px solid black;
+     color: white;
+     text-align: center;
+  	 z-index: 1;
+  	 padding-top: 0;
+  	 margin-top: 0;
+     height: 50px;
+}
+.main_child_1 table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.main_child_1 th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+.main_child_1 tr:nth-child(even){background-color: #f2f2f2}
+
+.main_child_1 th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+/*---------------------------------------------------------------ATTENDENCE OF A STUDENT------------------------------------------------------------------*/
+.main_child_2{
+	border: 1px solid black;
+	border-radius: 10px;
+	height: 250px;
+	overflow-y: scroll;
+}
+.main_child_2_sticky{
+	 position: -webkit-sticky;
+     position: sticky;
+     top: 0;
+  	border-bottom: 1px solid black;
+    color: white;
+     text-align: center;
+  	 height: 50px;
+  	 z-index: 1;
+  	 background-color: #4CAF50;;
+  	 padding-top: 0;
+  	 margin-top: 0;
+}
+.main_child_2_grid-container {
+  display: grid;
+  grid-template-row: auto auto auto auto auto auto;
+  grid-gap: 10px;
+  background-color:white;
+  padding: 5px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.main_child_2_grid-container > div {
+  background-color: #f2f2f2 ;
+  padding: 10px 0;
+  text-align: center;
+ /* /font-size: 30px;/ */
+}
+ /*INSIDE MANI_CHILD_2_GRIDE-CONTAINER ALL DIVE GIVEN ITEM CLASS*/
+.item1 {
+  grid-row: 1 / 4;
+  color: white;
+}
+
+/*----------------------------------------------------------------message div-----------------------------------------------------------------------------*/
+.message{
+
+	width: 35%;
+	border: 1px solid black;
+	float: left;
+	margin-left: 10%;
+	height: 200px;
+	overflow-y: scroll;
+	background-color: white;
+}
+.message_odd{
+	background-color: #1abc9c;
+	color: black;
+}
+.message_even{
+	background-color: #f2f2f2;
+	color: black;
+}
+.message_link_a{
+	text-decoration: none;
+	
+}
+.sticky_message{
+	  position: -webkit-sticky;
+  	  position: sticky;
+      top: 0;
+      color: white;
+      background-color:#4CAF50;
+      padding-top: 0;
+      margin-top: 0;
+}
+
+
+/*------------------------------------------------------------------ANNOUNCEMENT-----------------------------------------------------------------------*/
+.announcement{
+	width: 35%;
+	border: 1px solid black;
+	float: left;
+	margin-left: 10%;
+	height: 200px;
+	overflow-y: scroll;
+	background-color: #f2f2f2;
+}
+.sticky_announcement{
+	position: -webkit-sticky;
+  	  position: sticky;
+  	  top: 0;
+  	  color: white;
+  	  background-color: #4CAF50;
+  	  padding-top: 0;
+  	  margin-top: 0;
+};
+
+.main_child_2_grid-container > div {
+  background-color: #f2f2f2;
+  padding: 10px 0;
+ /* /font-size: 30px;/ */
+}
+ /*INSIDE MANI_CHILD_2_GRIDE-CONTAINER ALL DIVE GIVEN ITEM CLASS*/
+.item1 {
+  grid-row: 1 / 4;
+  color: white;
+}

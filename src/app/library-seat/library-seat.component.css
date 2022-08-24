@@ -1,0 +1,27 @@
+.container{
+    margin-top: 10%;
+    border: 1px solid black;
+    width: 50%;border-radius: 10px;
+    margin: 10% auto;
+    padding: 20px;
+    text-align: center;
+}
+table{
+    text-align: center;
+    margin: auto;
+}
+tr,th{
+    margin: 10px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #4CAF50 ;
+}
+
+button{
+    padding: 10px;
+    background-color: #4CAF50;
+    border-radius: 10px;
+}
